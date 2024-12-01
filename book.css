@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: black;
+  color: white;
+  height: 90px;
+}
+.navbar h3 {
+  font-style: italic;
+  padding: 20px;
+  font-size: 25px;
+}
+.navbar ul {
+  display: flex;
+  padding: 10px;
+}
+.navbar ul li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.navbar ul li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+.navbar ul li a:hover {
+  color: rgb(221, 173, 60);
+}
+.navbar i {
+  padding: 20px;
+}
+.navbar i:hover {
+  color: rgb(221, 173, 60);
+}
+.navbar button {
+  padding: 10px;
+  font-weight: bold;
+  height: 40px;
+  width: 4cm;
+  color: white;
+  margin: 10px;
+  background-color: rgb(187, 145, 7);
+  border-radius: 20px;
+}
+.navbar button:hover {
+  background-color: rgb(221, 173, 60);
+}
+
+.book {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 60px;
+}
+.book h1 {
+  font-size: 40px;
+  font-style: italic;
+}
+.book input {
+  font-size: 20px;
+  padding-left: 20px;
+  margin: 10px;
+  width: 10cm;
+  height: 40px;
+  border-radius: 3px;
+}
+.book .btn {
+  padding: 10px;
+  height: 40px;
+  width: 4cm;
+  color: white;
+  margin: 10px;
+  background-color: rgb(187, 145, 7);
+  border-radius: 20px;
+}
+.book .btn:hover {
+  background-color: rgb(221, 173, 60);
+}
+
+.upper-footer footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  align-content: center;
+  background-color: rgb(6, 6, 24);
+  color: white;
+}
+.upper-footer footer h1 {
+  font-style: italic;
+  padding-bottom: 15px;
+}
+
+.lower-footer footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(6, 6, 24);
+  color: white;
+}
+.lower-footer footer .icon {
+  margin-right: 20px;
+}
+.lower-footer footer .icon i {
+  font-size: 30px;
+  padding: 10px;
+  padding-bottom: 50px;
+}/*# sourceMappingURL=book.css.map */

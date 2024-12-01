@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: black;
+  color: white;
+  height: 90px;
+  width: 28.6cm;
+}
+.navbar h3 {
+  font-style: italic;
+  padding: 20px;
+  font-size: 25px;
+}
+.navbar ul {
+  display: flex;
+  padding: 10px;
+}
+.navbar ul li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.navbar ul li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+.navbar ul li a:hover {
+  color: rgb(221, 173, 60);
+}
+.navbar i {
+  padding: 20px;
+}
+.navbar i:hover {
+  color: rgb(221, 173, 60);
+}
+.navbar button {
+  padding: 10px;
+  font-weight: bold;
+  height: 40px;
+  width: 4cm;
+  color: white;
+  margin: 10px;
+  background-color: rgb(187, 145, 7);
+  border-radius: 20px;
+}
+.navbar button:hover {
+  background-color: rgb(221, 173, 60);
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.card-container .card {
+  background-color: rgb(246, 243, 243);
+  margin: 10px;
+  width: 325px;
+  border-radius: 8px;
+}
+.card-container .card img {
+  width: 50%;
+  margin-left: 70px;
+  padding-top: 20px;
+}
+.card-container .card img:hover {
+  scale: 1.1;
+}
+.card-container .card-content {
+  color: white;
+  background-color: rgb(6, 6, 30);
+  padding: 20px;
+  margin: 20px;
+}
+.card-container .card-content h2 {
+  padding-bottom: 20px;
+  color: white;
+}
+
+.btn button {
+  font-size: 16px;
+  padding: 10px;
+  font-weight: bold;
+  height: 40px;
+  width: 4.5cm;
+  color: white;
+  margin-left: 43%;
+  margin-bottom: 20px;
+  background-color: rgb(187, 145, 7);
+  border-radius: 20px;
+}
+.btn button:hover {
+  background-color: rgb(221, 173, 60);
+}
+
+.upper-footer footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  align-content: center;
+  background-color: rgb(6, 6, 24);
+  color: white;
+}
+.upper-footer footer h1 {
+  font-style: italic;
+  padding-bottom: 15px;
+}
+
+.lower-footer footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(6, 6, 24);
+  color: white;
+}
+.lower-footer footer i {
+  font-size: 30px;
+  padding: 10px;
+  padding-bottom: 50px;
+}/*# sourceMappingURL=order.css.map */
